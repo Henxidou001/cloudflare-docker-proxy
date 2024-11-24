@@ -6,7 +6,7 @@
 
 > If you're looking for proxy for helm, maybe you can try [cloudflare-helm-proxy](https://github.com/ciiiii/cloudflare-helm-proxy).
 
-## Deploy
+## 部署
 
 1.单击“Deploy With Workers”按钮
 2.按照说明进行分叉和部署
@@ -14,7 +14,7 @@
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-docker-proxy)
 
-## Routes configuration tutorial
+## 路线配置教程
 
 1. 使用cloudflare worker host：仅支持代理1个注册表
    ```javascript
