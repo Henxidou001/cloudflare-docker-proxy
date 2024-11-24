@@ -16,13 +16,13 @@
 
 ## Routes configuration tutorial
 
-1. use cloudflare worker host: only support proxy one registry
+1. 使用cloudflare worker host：仅支持代理1个注册表
    ```javascript
    const routes = {
      "${workername}.${username}.workers.dev/": "https://registry-1.docker.io",
    };
    ```
-2. use custom domain: support proxy multiple registries route by host
+2. 使用自定义域：支持按主机路由代理多个注册表
    - host your domain DNS on cloudflare
    - add `A` record of xxx.example.com to `192.0.2.1`
    - deploy this project to cloudflare workers
