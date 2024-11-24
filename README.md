@@ -23,11 +23,11 @@
    };
    ```
 2. 使用自定义域：支持按主机路由代理多个注册表
-   - host your domain DNS on cloudflare
-   - add `A` record of xxx.example.com to `192.0.2.1`
-   - deploy this project to cloudflare workers
-   - add `xxx.example.com/*` to HTTP routes of workers
-   - add more records and modify the config as you need
+   - 在cloudflare上托管您的域名DNS
+   - 将xxx.example.com的“A”记录添加到“192.0.2.1”中
+   - 将此项目部署到cloudflare workers
+   - 将“xxx.example.com/*”添加到workers的HTTP路由中
+   - 添加更多记录并根据需要修改配置
    ```javascript
    const routes = {
      "docker.henxidou.com": "https://registry-1.docker.io",
